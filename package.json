@@ -1,0 +1,23 @@
+{
+  "name": "pull_to_refresh",
+  "version": "1.0.0",
+  "description": "You pull and it refreshes on Android. It basically injects code from this library in all the pages https://www.boxfactura.com/pulltorefresh.js/. The icon is Refresh by gb on noun project.",
+  "main": "apply_pulltorefresh.js",
+  "scripts": {
+    "build": "cp node_modules/pulltorefreshjs/dist/pulltorefresh.js pulltorefresh.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreicristianpetcu/firefox_pull_to_refresh.git"
+  },
+  "keywords": [
+    "firefox",
+    "web_extension"
+  ],
+  "author": "Andrei Cristian Petcu andreip@posteo.net",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/andreicristianpetcu/firefox_pull_to_refresh/issues"
+  },
+  "homepage": "https://addons.mozilla.org/en-US/firefox/addon/firefox-pull-to-refresh/"
+}

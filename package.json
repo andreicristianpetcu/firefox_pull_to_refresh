@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/andreicristianpetcu/firefox_pull_to_refresh/issues"
   },
-  "homepage": "https://addons.mozilla.org/en-US/firefox/addon/firefox-pull-to-refresh/"
+  "homepage": "https://addons.mozilla.org/en-US/firefox/addon/firefox-pull-to-refresh/",
+  "dependencies": {
+    "pulltorefreshjs": "^0.1.14"
+  }
 }

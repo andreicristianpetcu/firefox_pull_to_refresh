@@ -1,18 +1,11 @@
+const disabledDomains = [];
+disabledDomains.push('bugzilla.mozilla.org');
 
-const domainToElementSelector = [];
-domainToElementSelector['bugzilla.mozilla.org'] = '#bugzilla-body';
-
-var element = domainToElementSelector[document.location.host];
-
-if(!element){
-  element = 'body';
+if (disabledDomains.indexOf(document.location.host) === -1) {
+  var ptr = PullToRefresh.init({
+    mainElement: 'body',
+    onRefresh: function () {
+      window.location.reload();
+    }
+  });
 }
-
-console.log(`using element ${element}`);
-
-var ptr = PullToRefresh.init({
-  mainElement: element,
-  onRefresh: function () {
-    window.location.reload();
-  }
-});

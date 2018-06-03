@@ -1,7 +1,8 @@
 {
+  "name": "Pull to Refresh",
   "description": "You pull and it refreshes on Android. It basically injects code from this library in all the pages https://www.boxfactura.com/pulltorefresh.js/. The icon is Refresh by gb on noun project.",
   "manifest_version": 2,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage_url": "https://github.com/andreicristianpetcu/firefox_pull_to_refresh",
   "content_scripts": [
     {
